@@ -1,0 +1,31 @@
+{
+  "name": "react-compiler-babel-8-issue",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/hariabinesh-l-4219/react-compiler-babel-8-issue#readme",
+  "bugs": {
+    "url": "https://github.com/hariabinesh-l-4219/react-compiler-babel-8-issue/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hariabinesh-l-4219/react-compiler-babel-8-issue.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel badge.jsx --out-file badge.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^8.0.1",
+    "@babel/core": "^8.0.1",
+    "@babel/preset-env": "^8.0.1",
+    "@babel/preset-react": "^8.0.1",
+    "babel-plugin-react-compiler": "^1.0.0"
+  }
+}
